@@ -1,5 +1,3 @@
-const Product = require("./Product");
-
 class Cart{
     constructor(total){
         this.products = [];
@@ -16,7 +14,18 @@ class Cart{
         this.products.splice(i,1)
     }
 }
-}
+    getTotal(){
+        let totalPrice = 0
+        for(let i = 0; i < this.products.length; i++){
+            totalPrice += product[i].price 
+        return totalPrice
+    }
+    }
+    clear(){
+        this.products = []
+        this.total =0
+    }
+    }
 
 
 module.exports = Cart;
