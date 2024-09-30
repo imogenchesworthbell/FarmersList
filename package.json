@@ -1,0 +1,24 @@
+{
+  "name": "farmerslist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "test:report": "jest --coverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MultiverseLearningProducts/FarmersList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MultiverseLearningProducts/FarmersList/issues"
+  },
+  "homepage": "https://github.com/MultiverseLearningProducts/FarmersList#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
